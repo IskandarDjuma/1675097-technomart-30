@@ -1,7 +1,7 @@
 # Личный проект «Техномарт»
 
 * Студент: [Искандар Джумаев](https://up.htmlacademy.ru/htmlcss/30/user/1675097).
-* Наставник: [Владислав Кривокора] (https://htmlacademy.ru/profile/krivokora)
+* Наставник: [Владислав Кривокора](https://htmlacademy.ru/profile/krivokora)
 
 ---
 
