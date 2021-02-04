@@ -147,7 +147,7 @@ address{
 .user-navigation,
 .site-navigation,
 .user-login,
-.products-card,
+.catalog-list,
 .companies-logo,
 .footer-link-navigation,
 .footer-link-popular-parts,
@@ -163,7 +163,7 @@ address{
   background-color: var(--basic-nav-footer);
 }
 
-h1,
+.page-name,
 .popular-parts h2{
   display: none;
 }
@@ -189,6 +189,19 @@ h2{
   font-size: 24px;
   line-height: 30px;
 }
+/* Button*/
+
+.checkout-btn{
+  font: inherit;
+  color: var(--basic-text);
+  background-color: var(--basic-bottom-gr);
+}
+.checkout-btn:hover{
+  background-color: #5FBB2D;
+}
+.checkout-btn:focus{
+  opacity: 50%;
+}
 
 .button{
   font: inherit;
@@ -206,8 +219,6 @@ h2{
 }
 
 /* slider*/
-
-
 
 .slide-title{
   color: var(--basic-text);
@@ -262,6 +273,8 @@ h2{
 }
 
 
+
+
 .lead{
   color: var(--basic-black);
   font-family: "PT Sans";
@@ -270,6 +283,140 @@ h2{
   line-height: 24px;
 }
 
+.page-title{
+  color: var(--basic-nav-footer);
+  font-family: "Cuprum";
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 30px;
+  background-color: #F2F6F8;
+}
+
+/* Breadcrumbs */
+.breadcrumbs{
+  list-style: none;
+}
+
+.breadcrumbs a,
+.breadcrumbs-current,
+.page-subtitle{
+  color: var(--basic-black);
+  text-transform: uppercase;
+  font-family: "PT Sans";
+  font-size: 13px;
+  line-height: 18px;
+}
+
+/* Filters */
+.page-subtitle h2{
+  display: none;
+}
+.page-subtitle-bg{
+  background-color: var(--basic-filtr-bg);
+}
+
+
+
+.filter legend{
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+
+.filter ul{
+  list-style: none;
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 19px;
+  text-transform: uppercase;
+}
+
+form.filter .filter-btn{
+  font-family: "PT Sans";
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 18px;
+  background-color: none;
+  border: 1px solid #E5E5E5;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/* Catalog */
+
+.sorting{
+  list-style: none;
+}
+
+.by-prise{
+  color: var(--basic-bottom)
+}
+
+.by-type,
+.by-func{
+  color: var(--basic-black);
+  opacity: 30%;
+  border-bottom: 1px dotted;
+}
+
+.by-type:hover,
+.by-func:hover{
+  opacity: 100%;
+  border-bottom: 1px solid var(--basic-bottom);
+}
+
+.catalog-item{
+  border: 1px solid #EAEAEA;
+}
+
+.card-mark-btn{
+  color: var(--basic-nav-footer);
+  border: 2px solid var(--basic-bottom-gr);
+  text-transform: uppercase;
+  text-align: center;
+  background-color: transparent;
+ }
+
+.card-buy-btn{
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.card-mark-btn:hover{
+  border: 2px solid var(--basic-nav-footer);
+  background-color: transparent;
+}
+
+.card-mark-btn:focus{
+  opacity: 50%;
+}
+
+/* Pagination */
+
+.pagination-list{
+  list-style: none;
+}
+
+.pagination-item a {
+  color: var(--basic-black);
+  background-color: transparent;
+  border: 1px solid #E5E5E5;
+}
+
+.pagination-item a:hover {
+  border: 1px solid #C5C5C5;
+}
+
+.pagination-item a:focus{
+  border: 1px solid var(--basic-bottom);
+}
+
+/* Footer */
 .footer-link-navigation a{
   color: var(--basic-text);
 }
@@ -313,6 +460,14 @@ h2{
 
 .footer-copyright a{
   color: var(--special);
+}
+
+.footer-copyright a:hover{
+  text-decoration: underline;
+}
+
+.footer-copyright a:focus{
+  color: var(--basic-bottom);;
 }
 
 
