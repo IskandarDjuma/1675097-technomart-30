@@ -422,7 +422,19 @@ h2 {
   line-height: 20px;
   font-weight: 700;
   font-style: normal;
-  color: var(--basic-black)
+  color: var(--basic-black);
+  margin-left: 18px;
+  margin-right: 17px;
+  margin-top: 7px;
+  margin-bottom: 7px;
+  text-align: center;
+}
+
+.products-card-img{
+  width: 220px;
+  height: 170px;
+  margin: 0;
+
 }
 
 .old-price {
@@ -431,7 +443,8 @@ h2 {
   font-size: 17px;
   line-height: 18px;
   font-weight: 700;
-  font-style: normal;
+  margin-left: 78px;
+  margin-right: 78px;
 }
 
 .price {
@@ -441,7 +454,11 @@ h2 {
   font-weight: 700;
   font-style: normal;
   background-color: var(--basic-bottom);
-  color: var(--basic-text)
+  color: var(--basic-text);
+  display: inline-block;
+  margin-right: 34px;
+  margin-left: 45px;
+
 }
 
 
@@ -553,6 +570,14 @@ h2 {
   background-color: var(--basic-filtr-bg);
 }
 
+.filter fieldset{
+  padding: 0;
+  margin: 0;
+  margin-bottom: 45px;
+  border: none;
+
+}
+
 .filter legend {
   font-family: "PT Sans", Arial, Helvetica, sans-serif;
   font-style: normal;
@@ -570,6 +595,14 @@ h2 {
   font-size: 15px;
   line-height: 19px;
   text-transform: uppercase;
+  margin: 0;
+  padding: 0;
+}
+
+.filter-option {
+  padding: 0;
+  margin-bottom: 20px;
+
 }
 
 form.filter .filter-btn {
