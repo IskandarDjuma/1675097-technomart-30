@@ -1,7 +1,7 @@
 const writeUsLink = document.querySelector(".write-us-link");
 const writeUsPopup = document.querySelector(".modal-write-us");
 const writeUsClose = writeUsPopup.querySelector(".modal-close");
-const loginLogin = writeUsPopup.querySelector(".write-us-name");
+const loginLogin = writeUsPopup.querySelector(".name-login");
 const writeUsForm = writeUsPopup.querySelector(".write-us-form");
 const loginMail = writeUsPopup.querySelector(".write-us-mail");
 

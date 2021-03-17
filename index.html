@@ -9,7 +9,7 @@
   <link rel="manifest" href="manifest.webmanifest">
   <title> HTML Academy: Техномарт</title>
   <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style.min.css">
 </head>
 
 <body class="page-body">
@@ -81,19 +81,17 @@
         </nav>
       </div>
     </div>
-    </div>
+
   </header>
 
   <main>
     <div class="container">
-      <!--блоки категории популярных товаров-->
-      <h1 class="visually-hidden">Интернет-магазин Техномарт</h1>
-
+      <h1 class="visually-hidden"> Интернет-магазин Техномарт</h1>
       <section class="popular-parts">
         <h2 class="visually-hidden">Популярные разделы</h2>
         <div class="parts-item material-item marker-new">
           <p>Материалы</p>
-          <a сlass="popular-parts-button material-btn " href="#">На любой вкус</a>
+          <a class="popular-parts-button material-btn " href="#">На любой вкус</a>
         </div>
         <div class="parts-item instruments-item ">
           <p>Инструмент</p>
@@ -101,21 +99,21 @@
         </div>
         <div class="parts-item technics-item">
           <p>Техника</p>
-          <a сlass="popular-parts-button technics-btn " href="#">Для стройки</a>
+          <a class="popular-parts-button technics-btn " href="#">Для стройки</a>
         </div>
         <div class="parts-item discount-item">
           <p>Скидки 50%</p>
-          <a сlass="popular-parts-button discount-btn" href="#"> На 350 товаров</a>
+          <a class="popular-parts-button discount-btn" href="#"> На 350 товаров</a>
         </div>
         <div class="parts-item delivery-item">
           <p>Доставка</p>
-          <a сlass="popular-parts-button " href="#">Бесплатно</a>
+          <a class="popular-parts-button " href="#">Бесплатно</a>
         </div>
 
         <div class="slider-block">
           <ul class="slider ">
             <!--Основной блок слайдера-->
-            <li class="slider-item slide ">
+            <li class="slider-item slide slide-current">
               <img src="img/perforator-img.jpg" width="620" height="266"
                 alt="Изображение строителя с синим перфоратором">
               <div class="slide-content">
@@ -130,7 +128,7 @@
                 </a>
               </div>
             </li>
-            <li class="slider-item slide slide-current  ">
+            <li class="slider-item slide">
               <img src="img/drill-img.jpg" width="620" height="266" alt="Изображение строителя с дрелью">
               <div class="slide-content">
                 <h3 class="slide-title">
@@ -150,11 +148,9 @@
           <a class="slider-controls control-right" aria-label="Следующий слайд"></a>
 
           <div class="dot-controls">
-            <button type="button" aria-label="Первый слайд"></button>
-            <button class="current" type="button" aria-label="Второй слайд"></button>
+            <button class="current" type="button" aria-label="Первый слайд"></button>
+            <button type="button" aria-label="Второй слайд"></button>
           </div>
-
-
         </div>
 
       </section>
@@ -168,7 +164,6 @@
           <a class="button" href="catalog.html">Все популярные товары</a>
         </div>
         <!--карточка товара-->
-
 
         <ul class="catalog-list">
           <li class="products-card">
@@ -285,30 +280,27 @@
         <div class="service-wrap">
           <ul class="services-button">
             <li>
-              <a class="services-unchecked-btn" href="blank.html">Доставка</a>
+              <a class="services-checked-btn" href="blank.html">Доставка</a>
             </li>
             <li>
               <a class="services-unchecked-btn" href="blank.html">Гарантия</a>
             </li>
             <li>
-              <a class="services-checked-btn" href="blank.html">Кредит</a>
+              <a class="services-unchecked-btn" href="blank.html">Кредит</a>
             </li>
           </ul>
 
           <ul class="services-item">
-            <li class=" delivery-services ">
+            <li class=" delivery-services service-current">
               <h3 class="accent-text">Доставка</h3>
               <p class="lead">Мы&nbsp;с&nbsp;удовольствием доставим ваш товар прямо к&nbsp;вашему подъезду совершенно
-                бесплатно!
-                Ведь мы&nbsp;неплохо заработаем, поднимая его на&nbsp;ваш этаж!</p>
+                бесплатно! Ведь мы&nbsp;неплохо заработаем, поднимая его на&nbsp;ваш этаж!</p>
             </li>
-            <li class="guarantee-services service-current ">
+            <li class="guarantee-services">
               <h3 class="accent-text">Гарантия</h3>
               <p class="lead">Если купленный у&nbsp;нас товар поломается или заискрит, а&nbsp;также в&nbsp;случае
-                пожара,
-                спровоцированного его возгоранием, вы&nbsp;всегда можете быть уверены в&nbsp;нашей гарантии.
-                Мы&nbsp;обменяем
-                сгоревший товар на&nbsp;новый. Дом уж&nbsp;восстановите как-нибудь сами.</p>
+                пожара, спровоцированного его возгоранием, вы&nbsp;всегда можете быть уверены в&nbsp;нашей гарантии.
+                Мы&nbsp;обменяем сгоревший товар на&nbsp;новый. Дом уж&nbsp;восстановите как-нибудь сами.</p>
             </li>
             <li class="credit-services ">
               <h3 class="accent-text">Кредит</h3>
@@ -429,17 +421,17 @@
     <h2 class="visually-hidden">Форма обратной связи</h2>
     <form class="write-us-form" action="https://echo.htmlacademy.ru" method="post">
       <ul>
-        <li>
+        <li class="write-us-name">
           <label for="name">Ваше имя:</label>
-          <input class="write-us-name" type="text" id="name" name="user-name" value="" placeholder="Имя Фамилия">
+          <input class="name-login" type="text" id="name" name="user-name" value="" placeholder="Имя Фамилия">
         </li>
-        <li>
+        <li class="write-us-mail">
           <label for="mail">Ваш e-mail:</label>
-          <input class="write-us-mail" type="email" id="mail" name="user-mail" value="" placeholder="email@example.com">
+          <input type="email" id="mail" name="user-mail" value="" placeholder="email@example.com">
         </li>
-        <li>
+        <li class="write-us-msg">
           <label for="msg">Текст письма:</label>
-          <textarea name="user-message" id="msg" placeholder="В свободной форме"></textarea>
+          <textarea class="modal-user-message" name="user-message" id="msg" placeholder="В свободной форме"></textarea>
         </li>
         <li>
           <button class="button" type="submit">Отправить</button>
@@ -457,9 +449,8 @@
     <button class="modal-close" type="button" aria-label="Закрыть"></button>
   </section>
 
-  <script src="/js/write-us.js"></script>
-  <script src="/js/map.js"></script>
-  <script src="/js/cart.js"></script>
+  <script src="../js/write-us.js"></script>
+  <script src="../js/map.js"></script>
 
 </body>
 
