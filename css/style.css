@@ -370,11 +370,9 @@ img {
 
 .header-middle p {
   width: 197px;
-  height: 71px;
+  min-height: 71px;
   font-size: 16px;
   line-height: 24px;
-  overflow: hidden;
-  text-overflow: ellipsis;
   color: var(--basic-bottom);
   font-style: italic;
   margin-left: 31px;
@@ -403,7 +401,7 @@ img {
   content: "";
   width: 19px;
   height: 19px;
-  background-image: url('../img/icon/icon-phone.svg');
+  background-image: url("../img/icon/icon-phone.svg");
   position: absolute;
   top: 11px;
   left: 33px;
@@ -443,7 +441,7 @@ img {
   position: absolute;
   top: 14px;
   left: 18px;
-  background-image: url('../img/icon/icon-login.svg');
+  background-image: url("../img/icon/icon-login.svg");
   opacity: 0.3;
 }
 
@@ -613,7 +611,7 @@ img {
 
 .material-item {
   background-color: var(--card-popular-parts-bg-1);
-  background-image: url('../img/icon/icon-paint.svg');
+  background-image: url("../img/icon/icon-paint.svg");
   background-repeat: no-repeat;
   background-size: 44px 65px;
   background-position: 214px 30px;
@@ -621,7 +619,7 @@ img {
 
 .instruments-item {
   background-color: var(--card-popular-parts-bg-2);
-  background-image: url('../img/icon/icon-drill.svg');
+  background-image: url("../img/icon/icon-drill.svg");
   background-repeat: no-repeat;
   background-size: 75px 61px;
   background-position: 196px 32px;
@@ -629,7 +627,7 @@ img {
 
 .technics-item {
   background-color: var(--card-popular-parts-bg-3);
-  background-image: url('../img/icon/icon-tractor.svg');
+  background-image: url("../img/icon/icon-tractor.svg");
   background-repeat: no-repeat;
   background-size: 78px 62px;
   background-position: 193px 30px;
@@ -639,7 +637,7 @@ img {
   background-color: var(--card-popular-parts-bg-4);
   grid-column: 3/4;
   grid-row: 2/3;
-  background-image: url('../img/icon/icon-discount.svg');
+  background-image: url("../img/icon/icon-discount.svg");
   background-repeat: no-repeat;
   background-size: 59px 72px;
   background-position: 198px 25px;
@@ -649,7 +647,7 @@ img {
   background-color: var(--card-popular-parts-bg-5);
   grid-column: 3/4;
   grid-row: 3/4;
-  background-image: url('../img/icon/icon-delivery.svg');
+  background-image: url("../img/icon/icon-delivery.svg");
   background-repeat: no-repeat;
   background-size: 78px 63px;
   background-position: 193px 29px;
@@ -662,7 +660,7 @@ img {
   left: 231px;
   width: 70px;
   height: 70px;
-  background: url('../img/new.svg') no-repeat;
+  background: url("../img/new.svg") no-repeat;
 }
 
 /* slider*/
@@ -724,7 +722,7 @@ img {
   top: 120px;
   left: 25px;
   padding: 0;
-  background-image: url('../img/icon/icon-left.svg');
+  background-image: url("../img/icon/icon-left.svg");
   background-repeat: no-repeat;
   width: 22px;
   height: 40px;
@@ -738,7 +736,7 @@ img {
   top: 120px;
   right: 18px;
   padding: 0;
-  background-image: url('../img/icon/icon-right.svg');
+  background-image: url("../img/icon/icon-right.svg");
   background-repeat: no-repeat;
   width: 22px;
   height: 40px;
@@ -822,7 +820,7 @@ img {
   left: 149px;
   width: 70px;
   height: 70px;
-  background: url('../img/new.svg') no-repeat;
+  background: url("../img/new.svg") no-repeat;
 }
 
 .products-card {
@@ -966,7 +964,7 @@ img {
   display: none;
   min-width: 619px;
   height: 283px;
-  background: url('../img/delivery-services.png') no-repeat 152px 20px;
+  background: url("../img/delivery-services.png") no-repeat 152px 20px;
 }
 
 .services-item .lead {
@@ -978,14 +976,14 @@ img {
   display: none;
   min-width: 619px;
   height: 283px;
-  background: url('../img/guarantee.png') no-repeat top right;
+  background: url("../img/guarantee.png") no-repeat top right;
 }
 
 .credit-services {
   display: none;
   min-width: 619px;
   height: 283px;
-  background: url('../img/credit-services.png') no-repeat top right;
+  background: url("../img/credit-services.png") no-repeat top right;
 }
 
 .service-current {
@@ -1038,7 +1036,7 @@ img {
   left: 230px;
   width: 10px;
   height: 279px;
-  background: url('../img/shadow-line.png') no-repeat;
+  background: url("../img/shadow-line.png") no-repeat;
 }
 
 .services-checked-btn {
@@ -1107,7 +1105,7 @@ img {
 }
 
 .transport-company li {
-  background: url('../img/marker-line.png') no-repeat 2px 11px;
+  background: url("../img/marker-line.png") no-repeat 2px 11px;
   padding-left: 37px;
   padding-bottom: 9px;
   margin-top: 3px;
@@ -1198,7 +1196,7 @@ img {
   right: 264px;
   width: 20px;
   height: 18px;
-  background-image: url('../img/icon/icon-user.svg');
+  background-image: url("../img/icon/icon-user.svg");
   opacity: 0.3;
 }
 
@@ -1208,7 +1206,7 @@ img {
   right: 12px;
   width: 20px;
   height: 17px;
-  background-image: url('../img/icon/icon-login.svg');
+  background-image: url("../img/icon/icon-login.svg");
   opacity: 0.3;
   background-color: transparent;
   border: 0;
@@ -1299,7 +1297,7 @@ img {
   left: 0;
   width: 14px;
   height: 12px;
-  background-image: url('../img/icon/icon-home.svg');
+  background-image: url("../img/icon/icon-home.svg");
 }
 
 .breadcrumbs a,
@@ -1470,26 +1468,26 @@ img {
   user-select: none;
 }
 
-.filter-input-checkbox+label::before {
+.filter-input-checkbox + label::before {
   content: "";
   position: absolute;
   top: 0;
   left: -38px;
   width: 23px;
   height: 23px;
-  background-image: url('../img/checkbox-off.svg');
+  background-image: url("../img/checkbox-off.svg");
   background-repeat: no-repeat;
   background-position: 0 0;
   opacity: 0.8;
 }
 
-.filter-input-checkbox:checked+label::before {
+.filter-input-checkbox:checked + label::before {
   position: absolute;
   top: 0px;
   left: -38px;
   width: 27px;
   height: 23px;
-  background-image: url('../img/checkbox-on.svg');
+  background-image: url("../img/checkbox-on.svg");
   background-repeat: no-repeat;
   background-position: 0 0;
   opacity: 0.8;
@@ -1695,7 +1693,7 @@ img {
   top: 11px;
   width: 15px;
   height: 15px;
-  background-image: url('../img/icon/icon-cart.svg');
+  background-image: url("../img/icon/icon-cart.svg");
   opacity: 0.3;
 }
 
@@ -1978,7 +1976,6 @@ img {
   animation: shake 0.6s;
 }
 
-
 .modal-write-us {
   top: 120px;
   bottom: auto;
@@ -2128,7 +2125,7 @@ img {
   left: 85px;
   width: 66px;
   height: 66px;
-  background: url('../img/icon/icon-mark.svg') no-repeat 0 0;
+  background: url("../img/icon/icon-mark.svg") no-repeat 0 0;
 }
 
 .modal-cart::after {
